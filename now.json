@@ -1,0 +1,13 @@
+{
+  "name": "now-env-vars",
+  "env": {
+    "NEO4J_URI": "bolt://{ip-address}:{bolt-port}",
+    "NEO4J_USER": "db-user",
+    "NEO4J_PASSWORD": "db-password"
+  },
+  "build": {
+    "env": {
+      "GRAPHQL_URI": "https://{domain}.now.sh/api/graphql"
+    }
+  }
+}
